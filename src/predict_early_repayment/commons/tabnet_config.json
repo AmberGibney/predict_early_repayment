@@ -26,11 +26,11 @@
     "months_overdraft",
     "prexisting_debt",
     "avg_month_owed",
-    "home_ownership_Rent",
+    "home_ownership_rent",
     "interest_rate",
-    "employment_status_Employed-parttime",
-    "employment_status_Retired",
-    "employment_status_Selfemployed"
+    "employment_status_parttime",
+    "employment_status_retired",
+    "employment_status_selfemployed"
   ],
   "LABEL_COLUMN": "early_settled",
   "MAX_STEPS": 100000,
