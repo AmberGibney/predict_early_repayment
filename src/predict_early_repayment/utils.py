@@ -14,7 +14,7 @@ def load_from_json(path_name: str):
     """Function to load list from json in commons folder."""
 
     # set path
-    path = pkg_resources.resource_string("project_lendable", path_name)
+    path = pkg_resources.resource_string("predict_early_repayment", path_name)
 
     # load json
     return json.loads(path.decode())
@@ -53,7 +53,7 @@ def check_loans_data_post_tradeline(customer: pd.DataFrame, tradeline: pd.DataFr
 
 
 def load_and_combine_data(path: Path):
-    """Function to load and combine Lendable data."""
+    """Function to load and combine data."""
 
     logger.info("Loading data...")
 
